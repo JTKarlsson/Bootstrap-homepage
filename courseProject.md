@@ -9,4 +9,7 @@
 -Bootstrap cdn
 
 #### building a navbar
+-navbar wired up with bootsrap
+-Navbar needs custom styling..
 
+#### Page Banners on top
