@@ -1,14 +1,10 @@
-/*.page-banner-home{
-    background-image: url(/images/bg-home.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #5E5B5B;
-}*/
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 
 .main-color{
     color: #563d7c;
@@ -17,29 +13,32 @@
     background-color: #563d7c;
 }
 
-
 .container-fluid {
   padding: 3% 5% 7%;
 }
+
 .navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.home-heading {
+.head-heading {
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-.bootsrap-logo {
+.top-icon {
   transform: rotate(15deg);
   width: 60%;
   margin-left: 1.5rem;
   right: 30%;
+  font-size: 16em;
 }
 @media (max-width: 992px) {
-  .bootsrap-logo {
+  .top-icon {
     width: 60%;
     transform: rotate(10deg);
     margin-left: 20%;
@@ -47,10 +46,10 @@
   }
 }
 @media (max-width: 768px) {
-    .bootsrap-logo {
+    .top-icon {
         transform: rotate(350deg);
         width: 60%;
-        margin-left: 20%;
+        margin-left: 0%;
         margin-top: 2%;
       }
     }
