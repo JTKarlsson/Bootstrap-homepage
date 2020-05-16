@@ -23,8 +23,9 @@ body {
 	font-weight: light;
 }
 
-.table td, .table th {
-     vertical-align: middle; 
+.table td,
+.table th {
+	vertical-align: middle;
 }
 
 .head-heading {
@@ -58,6 +59,44 @@ body {
 	}
 }
 
-.width-40{
-	width:40%;
+.width-40 {
+	width: 40%;
+}
+
+.fa-html5 {
+	color: #e44d26;
+}
+.fa-css3-alt {
+	color: #2965f1;
+}
+.fa-bootstrap {
+	color: #602c50;
+}
+.fa-js {
+	color: #f0db4f;
+	background-color: #323330;
+}
+.fa-node {
+	color: #68a063;
+}
+.fa-react {
+	color: #61dbfb;
+}
+.fa-git-alt {
+	color: #f1502f;
+}
+.fa-github {
+	color: #211f1f;
+}
+.fa-php {
+	color: #474a8a;
+}
+.fa-wordpress-simple {
+	color: #00749c;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-linkedin {
+	color: #0e76a8;
 }
