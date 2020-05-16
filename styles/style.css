@@ -23,6 +23,10 @@ body {
 	font-weight: light;
 }
 
+.table td, .table th {
+     vertical-align: middle; 
+}
+
 .head-heading {
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: bold;
@@ -54,21 +58,6 @@ body {
 	}
 }
 
-.subheading{
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 2.5rem;
-}
-
-.hide-bullets {
-    list-style:none;
-    margin-left: -40px;
-    margin-top:20px;
-}
-
-.thumbnail {
-    padding: 0;
-}
-
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 100%;
+.width-40{
+	width:40%;
 }
