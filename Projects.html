@@ -85,42 +85,90 @@
           <li class="breadcrumb-item"><a href="/HomePage.html">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
         </ol>
+      </div>
     </div>
-  </div>
   </section>
 
   <main class="container">
     <div class="row">
-      <div class="col-lg-4 col-sm-6"></div>
+      <div class="col-md-4 col-sm-6 my-4">
+        <div class="card h-100 border-warning p-1 rounded bg-warning">
+          <a href="#" class="" data-toggle="modal" data-target="#project1modal">
+            <img src="/images/gallery/iltapala-350x350.jpg" class="card-img-top rounded" alt="...">
+          </a>      
+          <div class="card-body text-success">
+            <h5 class="card-title subheading">Card title</h5>
+            <p class="card-text font-weight-bolder">This is a longer card with supporting text below as a
+              natural lead-in to additional content. This content is a little bit longer.
+              <a href="#" class="" data-toggle="modal" data-target="#project1modal">Read More...</a>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-success bg-main-color" data-toggle="modal" data-target="#project1modal">Read More...</a>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </main>
 
+  <!--Modals-->
+<section> 
+  <!-- Modal project1 -->
+  <div class="modal fade" id="project1modal" tabindex="-1" role="dialog" aria-labelledby="project1modal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
   <footer class="bg-success pt-5">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-4 text-center">
-                <h4 class="mb-3">Contact Me!</h4>
-                <p>Phone: +358 000000000</p>
-                <p>Email: mail@mail.com</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4 text-center">
+          <h4 class="mb-3">Contact Me!</h4>
+          <p>Phone: +358 000000000</p>
+          <p>Email: mail@mail.com</p>
 
-            </div>
-            <div class="col-lg-3 col-md-4 text-center">
-                <h4>Folllow my social media!</h4>
-                <i class="fab fa-facebook fa-2x text-primary m-1"></i>
-                <i class="fab fa-instagram fa-2x m-1 text-danger"></i>
-                <i class="fab fa-twitter fa-2x m-1 text-primary"></i>
-                <i class="fab fa-github fa-2x m-1"></i>
-            </div>
         </div>
-        <div class="row justify-content-center mt-3">
-            <p>Copyright 2020</p>
+        <div class="col-lg-3 col-md-4 text-center">
+          <h4>Folllow my social media!</h4>
+          <i class="fab fa-facebook fa-2x text-primary m-1"></i>
+          <i class="fab fa-instagram fa-2x m-1 text-danger"></i>
+          <i class="fab fa-twitter fa-2x m-1 text-primary"></i>
+          <i class="fab fa-github fa-2x m-1"></i>
         </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <p>Copyright 2020</p>
+      </div>
     </div>
-</footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

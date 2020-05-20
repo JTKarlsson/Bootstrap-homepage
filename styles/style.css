@@ -35,6 +35,12 @@ body {
 	line-height: 1.5;
 }
 
+.subheading {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
 .top-icon {
 	transform: rotate(15deg);
 	width: 60%;
