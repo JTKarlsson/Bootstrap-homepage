@@ -5,6 +5,9 @@ body {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
 }
+form{
+	font-family: "Josefin Sans", sans-serif;
+}
 
 .main-color {
 	color: #563d7c;
@@ -38,6 +41,11 @@ body {
 .subheading {
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 2.5rem;
+	line-height: 1.5;
+}
+.subheading-form {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.5rem;
 	line-height: 1.5;
 }
 
